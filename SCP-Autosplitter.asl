@@ -5,7 +5,7 @@ state("clownpuzzle-Win64-Shipping")
 }
 start
 {
-    if (current.varA == 1)
+    if (current.varA != 0)
     {
         return true;
     }
